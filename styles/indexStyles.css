@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+.body__styles{
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;    
+}
+
+.header__styles{
+    background-color: rgba(white);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    z-index: 10; 
+    top: 0;                 
+}
+
+.header__logo_style{
+    background-color: rgba(white);        
+    display: flex;    
+    font-family: 'Pacifico', cursive;
+    font-size: 300%;    
+}
+
+.header__logo_style-clit{
+    margin-top: 5px;
+    height: 20px;
+}
+
+.header__nav_style{       
+    display: flex;    
+}
+
+.header__nav_style-li{
+    list-style-type: none;
+    margin: 17px;    
+}
+
+.header__nav_style-a{
+    background-color: rgba(white);
+    text-decoration: none;
+    color: black;
+    font-weight: 700;    
+}
+
+.header__nav_style-a:hover {
+    border-top: 3px solid orange ;
+    padding-top: 5px;
+}
+
+.fresh_life__styles{
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   width: 100vw;   
+}
+
+.fresh_life_left__styles{   
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 29%;
+}
+
+.fresh_life_left__styles-h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 350%;
+    font-weight: 900;
+}
+
+.fresh_life_left__styles-p{  
+    width: 65%;
+    height: 70px;
+}
+
+.fresh_life_left__styles-button{
+    background-color: #ff6033;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.fresh_life_left__styles-button:hover {
+    background-color: #00c4c4;    
+}
+
+.scroll_style{
+    display: block;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: 43%;
+}
+
+.footer_style{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.aboutus_panel__style{
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: row;
+    width: 71%;    
+    margin-top: -52px;
+    background-color: #00BCBC;
+}
+
+.raspberries_pictuer__styles{
+    display: flex;           
+    height: 500px;
+    width: 80%;
+}
+
+.aboutus_panel_right__style{
+    display: flex;
+    flex-direction: column;
+    background-color: #00BCBC;
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.aboutus_panel_right__styles-h2{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 350%;
+    font-weight: 900;
+}
+
+.aboutus_panel_right__styles-p{    
+    display: flex;
+    height: 50%;
+    width: 78%;
+}
+
